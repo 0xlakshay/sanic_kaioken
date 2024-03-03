@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sanic-kaioken"
+version = "0.1.0"
+description = "A better developer experience for Sanic."
+authors = ["0xlakshay"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+rich = ">=13.0.0"
+sanic-ext = ">=22.9.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
